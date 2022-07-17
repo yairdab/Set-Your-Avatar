@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import Frame from "./Frame"
 import Footer from "./Footer"
 
+import profileImage from '../assets/profile/profile-image.jpg'
 
 const imageSizeMax = 400;
 const imageSizeMin = 0;
@@ -27,7 +28,7 @@ function Main() {
             width: size + 'px'
           }}
           className="profile-picture-container">
-        <img className="profile-picture" src="/assets/profile/profile-image.jpg"/>
+        <img className="profile-picture" src={profileImage}/>
         {
           frame &&
           <img className="profile-picture-frame" src={`${frame}`}/>
