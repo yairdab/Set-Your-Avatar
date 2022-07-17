@@ -15,8 +15,8 @@ function Frame(props) {
   return (<div className="row">
 
             {frames.map(frame => {
-              return <div className="col" onClick={()=>{props.setFrame('/assets/frames/'+frame)}}>
-                <img class-Name="frame" src={`/assets/frames/${frame}`} alt="Avatar" />
+              return <div className="col" onClick={()=>{props.setFrame('../assets/frames/'+frame)}}>
+                <img class-Name="frame" src={`../assets/frames/${frame}`} alt="Avatar" />
               </div>
             })}
 
