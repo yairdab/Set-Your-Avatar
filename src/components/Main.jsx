@@ -8,7 +8,7 @@ const imageSizeMax = 400;
 const imageSizeMin = 0;
 
 function Main() {
-  
+
   const [frame, setFrame] = useState(null);
   const [size, setSize] =useState(250);
 
@@ -27,7 +27,7 @@ function Main() {
             width: size + 'px'
           }}
           className="profile-picture-container">
-        <img className="profile-picture" src="/assets/profile/profile-image.jpg"/>
+        <img className="profile-picture" src="../../public/assets/profile/profile-image.jpg"/>
         {
           frame &&
           <img className="profile-picture-frame" src={`${frame}`}/>
