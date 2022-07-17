@@ -27,7 +27,7 @@ function Main() {
             width: size + 'px'
           }}
           className="profile-picture-container">
-        <img className="profile-picture" src="../../public/assets/profile/profile-image.jpg"/>
+        <img className="profile-picture" src="/assets/profile/profile-image.jpg"/>
         {
           frame &&
           <img className="profile-picture-frame" src={`${frame}`}/>
