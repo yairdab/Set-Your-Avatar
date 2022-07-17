@@ -93,6 +93,14 @@ body{
   width: 165%;
 }
 
+.frame{
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 50%
+}
+
+
 input {
   border: 1px solid #D61C4E;
   background-color: #231955;
