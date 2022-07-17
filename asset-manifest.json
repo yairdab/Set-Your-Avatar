@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Set-Your-Avatar/static/css/main.03ba1e7b.css",
+    "main.js": "/Set-Your-Avatar/static/js/main.0f5a6bce.js",
+    "index.html": "/Set-Your-Avatar/index.html",
+    "main.03ba1e7b.css.map": "/Set-Your-Avatar/static/css/main.03ba1e7b.css.map",
+    "main.0f5a6bce.js.map": "/Set-Your-Avatar/static/js/main.0f5a6bce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03ba1e7b.css",
+    "static/js/main.0f5a6bce.js"
+  ]
+}
